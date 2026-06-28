@@ -1620,7 +1620,7 @@
 					"type": "list",
 					"items": [
 						"You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.",
-						"You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table. [KHB] If you are a species with a natural weapon (Talons, Claws, Hooves, etc), you may bump your martial arts die up 1 rank, to a max of 2D6 [/KHB]",
+						"You can roll a {@dice d4} in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.",
 						"When you use the {@action Attack} action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the {@action Attack} action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn."
 					]
 				},
@@ -2177,7 +2177,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"You can roll {@damage 1d6} in place of the normal damage of your {@variantrule Unarmed Strike|XPHB} or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table."
+				"You can roll {@damage 1d6} in place of the normal damage of your {@variantrule Unarmed Strike|XPHB} or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.  [KHB] If you are a species with a natural weapon (Talons, Claws, Hooves, etc), you may bump your martial arts die up 1 rank, to a max of 2D6 [/KHB]"
 			]
 		},
 		{
