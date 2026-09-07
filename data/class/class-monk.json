@@ -2482,7 +2482,7 @@
 			"level": 1,
 			"header": 2,
 			"entries": [
-				"You can roll {@damage 1d6} in place of the normal damage of your {@variantrule Unarmed Strike|XPHB} or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table."
+				"You can roll {@damage 1d6} in place of the normal damage of your {@variantrule Unarmed Strike|XPHB} or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.  [KHB] If you are a species with a natural weapon (Talons, Claws, Hooves, etc), you may bump your martial arts die up 1 rank, to a max of 2D6 [/KHB]"
 			]
 		},
 		{

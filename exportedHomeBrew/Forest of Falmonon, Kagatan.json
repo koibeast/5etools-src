@@ -1,0 +1,452 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ForestofFalmonon",
+				"abbreviation": "FoF",
+				"full": "Forest of Falmonon",
+				"version": "1.0",
+				"authors": [
+					"Koi"
+				],
+				"color": "204700",
+				"colorNight": "204700"
+			},
+			{
+				"json": "Kagatan",
+				"abbreviation": "KT",
+				"full": "Kagatan",
+				"version": "1.0.0",
+				"authors": [
+					"Koi"
+				],
+				"color": "0300c2",
+				"colorNight": "000361"
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Polar Badger-Bear",
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"source": "ForestofFalmonon",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "5d10 + 15",
+				"average": 42
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 40,
+				"burrow": 40
+			},
+			"str": 20,
+			"dex": 16,
+			"con": 16,
+			"int": 2,
+			"wis": 13,
+			"cha": 7,
+			"passive": 15,
+			"cr": "3",
+			"shortName": "Badgear",
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"skill": {
+				"perception": "+5",
+				"stealth": "+5"
+			},
+			"resist": [
+				"cold"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bear makes two Rend attacks."
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Drill-Saw",
+			"size": [
+				"H"
+			],
+			"type": "Vehicle",
+			"source": "ForestofFalmonon",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 12",
+				"average": 75
+			},
+			"speed": {
+				"walk": 20,
+				"burrow": 60
+			},
+			"str": 22,
+			"dex": 8,
+			"con": 20,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"passive": 0,
+			"cr": "4",
+			"shortName": true,
+			"senses": [
+				"tremorsense 120 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"vulnerable": [
+				"acid",
+				"lightning"
+			],
+			"trait": [
+				{
+					"name": "Damage Threshold",
+					"entries": [
+						"If this vehicle is dealt less than 12 damage, it takes no damage."
+					]
+				},
+				{
+					"name": "Linked Ring",
+					"entries": [
+						"There is a unique magically liked ring, specific to each of these vehicles typically worn by their pilot that confer various benefits. "
+					]
+				},
+				{
+					"name": "Pilot Required",
+					"entries": [
+						"This is a vehicle, and requires a pilot familiar with it's controls to operate. Anyone unfamiliar with it attempting to pilot it must make an Int saving throw. If they pass a 12 they avoid any catastrophic consequences, if they pass a 15 they figure out how to move the vehicle, if they pass a 20 they figure out how to attack, and if they pass a 25 they gain access to this sheet, and never need to roll for it again. If they are wearing the linked ring, the DCs decrease by 3. Anyone who knows how to pilot this can teach someone else (allowing them to avoid this roll), but it will still require rolls at DMs discretion to determine how long it takes them to learn."
+					]
+				},
+				{
+					"name": "Self Destruct",
+					"entries": [
+						"If the pilot wearing the magic ring dies, and a new pilot does not put it on by the end of the current round (or within 6 secs, if out of combat) then the vehicle self destructs. Everything in a 45ft radius must make a Dex saving throw. On a failed save, they take {@dice 5d6} Thunder Dmg and are knocked {@condition prone}, as the vehicle implodes sending out a shockwave. On a success they take half as much."
+					]
+				},
+				{
+					"name": "Locked Hatch",
+					"entries": [
+						"The entrance to the cockpit is locked with a hatch with a DC20 lockpicking required if you don't know the combination, or aren't wearing the magically linked ring. It locks automatically upon being shut, and the lock is active both directions."
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"paralyzed",
+				"poisoned",
+				"prone"
+			],
+			"actionHeader": [
+				"The pilot uses their Action to take any Action in this vehicle."
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"This vehicle attacks twice with any combination of it's weapons. The drill is only useable if it is burrowed. If grappling it must target what it is grappling."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}Attempt Grapple"
+					]
+				},
+				{
+					"name": "Saw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Drill",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Emerge",
+					"entries": [
+						"If in the ground, spend an action to emerge."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"bonus": [
+				{
+					"name": "Burrow",
+					"entries": [
+						"Burrow under the ground, where the drill and this vehicle's Burrow speed are usable."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Drill-Sub-Saw",
+			"size": [
+				"H"
+			],
+			"type": "Vehicle",
+			"source": "ForestofFalmonon",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "14d8 + 12",
+				"average": 75
+			},
+			"speed": {
+				"burrow": 30,
+				"swim": 80
+			},
+			"str": 22,
+			"dex": 8,
+			"con": 20,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"passive": 0,
+			"cr": "4",
+			"senses": [
+				"tremorsense 120 ft."
+			],
+			"senseTags": [
+				"T"
+			],
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"vulnerable": [
+				"acid",
+				"lightning"
+			],
+			"trait": [
+				{
+					"name": "Damage Threshold",
+					"entries": [
+						"If this vehicle is dealt less than 12 damage, it takes no damage."
+					]
+				},
+				{
+					"name": "Linked Ring",
+					"entries": [
+						"There is a unique magically liked ring, specific to each of these vehicles typically worn by their pilot that confer various benefits. "
+					]
+				},
+				{
+					"name": "Pilot Required",
+					"entries": [
+						"This is a vehicle, and requires a pilot familiar with it's controls to operate. Anyone unfamiliar with it attempting to pilot it must make an Int saving throw. If they pass a 12 they avoid any catastrophic consequences, if they pass a 15 they figure out how to move the vehicle, if they pass a 20 they figure out how to attack, and if they pass a 25 they gain access to this sheet, and never need to roll for it again. If they are wearing the linked ring, the DCs decrease by 3. Anyone who knows how to pilot this can teach someone else (allowing them to avoid this roll), but it will still require rolls at DMs discretion to determine how long it takes them to learn."
+					]
+				},
+				{
+					"name": "Self Destruct",
+					"entries": [
+						"If the pilot wearing the magic ring dies, and a new pilot does not put it on by the end of the current round (or within 6 secs, if out of combat) then the vehicle self destructs. Everything in a 45ft radius must make a Dex saving throw. On a failed save, they take {@dice 5d6} Thunder Dmg and are knocked {@condition prone}, as the vehicle implodes sending out a shockwave. On a success they take half as much."
+					]
+				},
+				{
+					"name": "Locked Hatch",
+					"entries": [
+						"The entrance to the cockpit is locked with a hatch with a DC20 lockpicking required if you don't know the combination, or aren't wearing the magically linked ring. It locks automatically upon being shut, and the lock is active both directions."
+					]
+				}
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"paralyzed",
+				"poisoned",
+				"prone"
+			],
+			"actionHeader": [
+				"The pilot uses their Action to take any Action in this vehicle."
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"This vehicle attacks twice with any combination of it's weapons. The drill is only useable if it is burrowed. If grappling it must target what it is grappling."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}Attempt Grapple"
+					]
+				},
+				{
+					"name": "Saw",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}15 ({@damage 2d8 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Drill",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 10 ft., one target. {@h}19 ({@damage 3d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Emerge",
+					"entries": [
+						"If in the ground, spend an action to emerge."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"bonus": [
+				{
+					"name": "Burrow",
+					"entries": [
+						"Burrow under the ground, where the drill and this vehicle's Burrow speed are usable."
+					]
+				}
+			],
+			"shortName": true,
+			"skill": {
+				"stealth": "+2"
+			},
+			"damageTags": [
+				"P",
+				"S"
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Pressurize",
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8,
+						"upTo": true
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "XPHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "EFA"
+					},
+					{
+						"name": "Cleric",
+						"source": "XPHB"
+					},
+					{
+						"name": "Bard",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [],
+			"source": "Kagatan",
+			"components": {
+				"s": true,
+				"m": true
+			}
+		}
+	]
+}
