@@ -1,5 +1,15 @@
 {
-	"siteVersion": "2.35.0",
+	"_meta": {
+		"sources": [
+			{
+				"json": "KoiHomebrew",
+				"abbreviation": "KHB",
+				"full": "Koi Homebrew",
+				"version": "1.0.0",
+				"color": "970c92"
+			}
+		]
+	},
 	"race": [
 		{
 			"name": "Kitsune",
