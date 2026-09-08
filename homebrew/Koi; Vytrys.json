@@ -1,0 +1,26 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "KoiHomebrew",
+				"abbreviation": "KHB",
+				"full": "Koi Homebrew",
+				"version": "1.0.0",
+				"color": "970c92"
+			}
+		]
+	},
+	
+	"variantrule": [
+		{
+			"name": "Sanity",
+			"source": "KHB",
+			"ruleType": "C",
+			"entries": [
+				"Sanity serves as a way to track how your character has been affected by the horrors and traumas of their adventure. Each character has a Sanity Maximum (SM) that is determined upon character creation and rarely changes. At any given time your character's Sanity Points (SP) may be anywhere between 1 and their maximum. This will fluctuate with some degree of frequency, depending on their surroundings and choices. In general, anything upsetting, disturbing, or traumatic will decrease SP (and may rarely decrease your SM), while relaxing, positive, and fun actions will refresh any missing SP (and may rarely raise your SM)."
+				"Sanity Maximum Calculation:"
+				"Each character's sanity maximum is the sum of their intelligence, wisdom, and charisma scores."
+			]
+		}
+	]
+}
