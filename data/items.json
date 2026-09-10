@@ -1606,6 +1606,10 @@
 							"1 gallon"
 						],
 						[
+							"KHB - Lube",
+							"1 quart"
+						],
+						[
 							"Mayonnaise",
 							"2 gallons"
 						],
@@ -1628,10 +1632,6 @@
 						[
 							"Wine",
 							"1 gallon"
-						],
-						[
-							"[KHB] Lube",
-							"1 quart"
 						]
 					]
 				}
