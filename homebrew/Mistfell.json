@@ -1,0 +1,102 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Mistfell",
+				"abbreviation": "MF",
+				"full": "Mistfell",
+				"version": "1.0.0",
+				"authors": [
+					"Caleb"
+				],
+				"color": "cc8b00",
+				"colorNight": "9e6c00"
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Amulet of Perception",
+			"source": "Mistfell",
+			"rarity": "uncommon",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "---",
+					"entries": [
+						"The wearer has {@variantrule Advantage|XPHB} on Wisdom({@skill Perception|XPHB}) checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Charm of Luck",
+			"source": "Mistfell",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "---",
+					"entries": [
+						"You have one Luck Point per {@variantrule Long Rest|XPHB}, a la the {@feat Lucky|XPHB} feat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kaari's Light Trident",
+			"source": "Mistfell",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"bonusWeapon": "+1",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "---",
+					"entries": [
+						"Whem wielding this {@item Trident|XPHB} you have +1 to all attack and damage rolls with it.",
+						"When it is thrown it immediately returns to the wielder's hand. It's range when thrown is 30ft/60ft.",
+						"All other attributes (Mastery, {@variantrule Damage|XPHB}, etc) are the same as the base version."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cube of Confinement",
+			"source": "Mistfell",
+			"rarity": "rare",
+			"wondrous": true,
+			"charges": 3,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "---",
+					"entries": [
+						"This magical cube has 3 charges that do not recharge. Once per long rest, a creature may spend a charge as a magic action in order to throw it at any creature of size Huge or smaller within 60ft. The creature must make a Wisdom save (DC 18) or become trapped in the cube.",
+						"A creature may be released by any creature who operates the cube and understands how it functions (DC 15 {@skill Arcana|XPHB} check if not). If a creature is released in this fashion, then the cube of confinement will be deactivated, but may be used again after a long rest. Until the creature is released, the cube may not be used again.",
+						"While within the cube, the creature exists in a small, colorless demi-plane where their condition is sustained indefinitely. They are free to think and move, but do not need to eat, and are not affected by disease, poison, or any other effects which might do damage to them. While in this state, they may reattempt the initial saving throw once per day in order to break out. This begins 12 hours after being initially trapped. If they break out in this way then the cube loses any remaining charges and becomes permanently nonfunctional.",
+						"No matter the size of the creature within, this cube always weighs 0.25lbs."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kaari's \"Handy\" Teleporter",
+			"source": "Mistfell",
+			"rarity": "very rare",
+			"reqAttune": "by a Shadar-Kai",
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "---",
+					"entries": [
+						"This item has charges equal to your proficiency bonus. It regains all charges on a {@variantrule Long Rest|XPHB}. As a {@variantrule Reaction|XPHB}, upon taking damage, you may activate this to teleport away and reduce your damage by (Character Level/3){@dice d4}.",
+						"To determine the location teleported to, roll a luck check on a {@dice D20}. The maximum range is 45ft. 10 or less is a bad location determined by the DM, with a nat 1 being the worst location that doesn't instantly damage you. More than 10 is a good location determined by the DM, with a nat 20 being somewhere you get to choose, and you may take the {@action Hide|XPHB} action there."
+					]
+				}
+			]
+		}
+	]
+}
