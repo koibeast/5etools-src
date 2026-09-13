@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "KoiHomebrew",
-				"abbreviation": "KHB",
-				"full": "Koi Homebrew",
+				"json": "Vytrys",
+				"abbreviation": "Vy",
+				"full": "Vytrys",
 				"version": "1.0.0",
 				"color": "970c92"
 			}
@@ -13,7 +13,7 @@
 	"variantrule": [
 		{
 			"name": "Sanity",
-			"source": "KHB",
+			"source": "Vytrys",
 			"srd52": true,
 			"basicRules2024": true,
 			"ruleType": "VO",
