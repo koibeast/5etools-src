@@ -1,0 +1,127 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "CalebHomebrew",
+				"abbreviation": "CHB",
+				"full": "Caleb Homebrew",
+				"version": "1.0.0",
+				"authors": [
+					"Caleb G"
+				],
+				"convertedBy": [
+					"Koi"
+				],
+				"color": "bfc200",
+				"colorNight": "8c8f00"
+			}
+		]
+	},
+	"feat": [
+		{
+			"name": "Gift of the Broodmother",
+			"source": "CalebHomebrew",
+			"page": 0,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"ability": [
+						{
+							"wis": 13
+						}
+					]
+				},
+				{
+					"level": 4,
+					"ability": [
+						{
+							"cha": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"wis",
+							"cha"
+						]
+					}
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Summon Brood",
+					"entries": [
+						"You learn the {@spell Find Familiar|XPHB} spell, and may cast it as a ritual without expending a spell slot.",
+						"When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: {@creature Swarm of Bats|XMM}, {@creature Swarm of Insects|XMM}, {@creature Swarm of Rats|XMM}, {@creature Swarm of Piranhas|XMM}, and {@creature Swarm of Ravens|XMM}. Additionally, in combat the Familiar acts on your turn. It can move and use its {@variantrule Reaction|XPHB} on its own, but the only action it takes is the {@action Dodge|XPHB} action, unless you take a {@variantrule Bonus Action|XPHB} to command it to take an action in its stat block or some other action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vitality of The Many",
+					"entries": [
+						"When you summon a creature or creatures through a spell effect or class feature (such as {@spell Find Familiar|XPHB}, or Primal Companion) they gain additional HP equal to twice your character level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leader of the Pack",
+					"entries": [
+						"When you use your bonus action in order to command a creature to take an action on its turn (such as a Primal Companion), you may instead command 2 creatures."
+					]
+				}
+			]
+		},
+		{
+			"name": "Performer",
+			"source": "CalebHomebrew",
+			"page": 0,
+			"category": "G",
+			"prerequisite": [
+				{
+					"level": 4,
+					"spellcasting2020": true,
+					"ability": [
+						{
+							"cha": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				"You gain the following benefits.",
+				{
+					"type": "entries",
+					"name": "Artist's Focus",
+					"entries": [
+						"You may use any Performance Method as a {@variantrule Spellcasting Focus|XPHB} for any spell that requires {@status Concentration|XPHB} or are being cast as a ritual. Performance Methods are defined as: A {@item Musical Instrument|XPHB}, Oration, Acting, Singing, Dance, Comedy and Poetry. Performance Methods not listed here may be coutned for the purposes of this feat, depending on your DM's interpretation. Any Performance Method requires the use of at least one hand, weather it be to hold an item, or simply as part of the performance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Charming Performance",
+					"entries": [
+						"You always have the spell {@spell Charm Person|XPHB} prepared. You may cast this spell as a ritual without expending a spell slot while using a Performance Method as your {@variantrule Spellcasting Focus|XPHB}. You may use this feature in this way once, regaining expended uses on a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stage Concentration",
+					"entries": [
+						"If you are forced to make a Constitution saving throw in order to maintain {@status Concentration|XPHB} on a spell while using a Performance Method as your {@variantrule Spellcasting Focus|XPHB}, you may use this feature in order to instead make a {@skill Performance|XPHB} skill check. The DC remains the same. You may use this feature in this way a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, regaining one expended use on a short rest, and all expended uses on a long rest."
+					]
+				}
+			]
+		}
+	]
+}
