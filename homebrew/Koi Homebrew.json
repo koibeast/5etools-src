@@ -48,6 +48,14 @@
 				},
 				{
 					"type": "entries",
+					"name": "Humanoid Form",
+					"entries": [
+						"You have a distinct illusory humanoid form (elf, human, dwarf, etc) that you can don at will. This form is static, only changing slightly as it ages alongside you. Any creature with Truesight, any other Kitsune, or anyone that can otherwise see through illusions sees your true, spiritual Fox form."
+					]
+
+				},
+				{
+					"type": "entries",
 					"name": "Fox's Claws",
 					"entries": [
 						"You can use your claws to make unarmed strikes. When you hit with them, the strike deals {@damage 1d6} + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike."
@@ -64,7 +72,7 @@
 					"type": "entries",
 					"name": "Vulpic Magic",
 					"entries": [
-						"You know the minor illusion cantrip. Starting at 3rd level, you can cast the {@spell disguise self|XPHB} spell with this trait, {@variantrule Proficiency|XPHB|Proficiency Bonus} number of times. Starting 5th level, you can also cast the {@spell phantasmal force|XPHB} spell once with this trait. Once you expend your charges for disguise self or phantasmal force with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell minor illusion|XPHB} cantrip. Starting at 3rd level, you can cast the {@spell disguise self|XPHB} spell with this trait, {@variantrule Proficiency|XPHB|Proficiency Bonus} number of times. Starting 5th level, you can also cast the {@spell phantasmal force|XPHB} spell once with this trait. Once you expend your charges for disguise self or phantasmal force with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
 					]
 				}
