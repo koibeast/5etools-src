@@ -71,6 +71,38 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "All-Purpose Toy",
+			"source": "Vytrys",
+			"rarity": "rare",
+			"reqAttune": "By an Artificer",
+			"reqAttuneTags": [
+				{
+					"class": "artificer|tce"
+				}
+			],
+			"wondrous": true,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"entries": [
+				"While holding this tool, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
+				{
+					"type": "entries",
+					"name": "Vers",
+					"entries": [
+						"This simple massager can transform into a variety of tools or toys; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the *Player's Handbook* for a list of *{@item artisan's tools|XPHB}*), or into any appendage or orifice of a creature you are familiar with."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reproductive",
+					"entries": [
+						"Every day this toy can generate up to 25GP worth of potion materials. At least 4 hours must be spent working to turn these materials into a potion, or part of a potion. Only one potion can be worked on in this fashion at a time, and the materials disapear if unused at the end of a {@variantrule Long Rest|XPHB}"
+					]
+				}
+			]
 		}
+
 	]
 }
