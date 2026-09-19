@@ -79,7 +79,7 @@
 			"reqAttune": "By an Artificer",
 			"reqAttuneTags": [
 				{
-					"class": "artificer|tce"
+					"class": "artificer|efa"
 				}
 			],
 			"wondrous": true,
@@ -91,7 +91,7 @@
 					"type": "entries",
 					"name": "Vers",
 					"entries": [
-						"This simple massager can transform into a variety of tools or toys; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the *Player's Handbook* for a list of *{@item artisan's tools|XPHB}*), or into any appendage or orifice of a creature you are familiar with."
+						"This simple massager can transform into a variety of tools or toys; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the Player's Handbook for a list of {@item artisan's tools|XPHB}), or into any appendage or orifice of a creature you are familiar with."
 					]
 				},
 				{
