@@ -58,7 +58,7 @@
 					"type": "entries",
 					"name": "Heart's Kiss",
 					"entries": [
-						"Once per round when damaging a creature with Heart, if you have already damaged a creature with Soul you may trigger the following effect:",
+						"Once per round when damaging a creature with Heart, if you score a {@variantrule Critical Hit|XPHB}, or if you have already damaged a creature with Soul you may trigger the following effect:",
 						"Heal {@dice 1d4} HP to yourself, and to another creature you can see within 30ft. Both of you also can add {@dice 1d4} to your next attack roll or saving throw."
 					]
 				},
@@ -66,7 +66,7 @@
 					"type": "entries",
 					"name": "Soul's Reap",
 					"entries": [
-						"Once per round when damaging a creature with Soul, if you have already damaged a creature with Heart you may trigger the following effect:",
+						"Once per round when damaging a creature with Soul, if you score a {@variantrule Critical Hit|XPHB}, or if you have already damaged a creature with Heart this round you may trigger the following effect:",
 						"Deal {@damage 1d4} Psychic damage to the creature, and to another creature you can see within 30ft. Both creatures must succeed on a Charisma saving throw (DC: 8+PB+Ability Mod used to make this attack) or subtract {@dice 1d4} from their next attack roll or saving throw."
 					]
 				}
