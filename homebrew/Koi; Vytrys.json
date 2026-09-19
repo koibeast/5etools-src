@@ -23,5 +23,54 @@
 				"Each character's sanity maximum is the sum of their intelligence, wisdom, and charisma scores."
 			]
 		}
+	],
+	"item": [
+		{
+			"name": "Heart and Soul",
+			"source": "Vytrys",
+			"baseItem": "scimitar|xphb",
+			"type": "M|XPHB",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F|XPHB",
+				"L|XPHB"
+			],
+			"mastery": [
+				"Nick|XPHB"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"bonusWeapon": "+1",
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls made with these magic weapons",
+				{
+					"type": "entries",
+					"name": "Empathy Link",
+					"entries": [
+						"These weapons are a physical manifestation of the creators' love for you. If you hold one of them in your hand and focus on an emotion, you can communicate that emotion to the creator across any distance as long as you are on the same plane. Similarly, the creators both have amulets that allow them to communicate their emotions to you, via these weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heart's Kiss",
+					"entries": [
+						"Once per round when damaging a creature with Heart, if you have already damaged a creature with Soul you may trigger the following effect:",
+						"Heal {@dice 1d4} HP to yourself, and to another creature you can see within 30ft. Both of you also can add {@dice 1d4} to your next attack roll or saving throw."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Soul's Reap",
+					"entries": [
+						"Once per round when damaging a creature with Soul, if you have already damaged a creature with Heart you may trigger the following effect:",
+						"Deal {@damage 1d4} Psychic damage to the creature, and to another creature you can see within 30ft. Both creatures must succeed on a Charisma saving throw (DC: 8+PB+Ability Mod used to make this attack) or subtract {@dice 1d4} from their next attack roll or saving throw."
+					]
+				}
+			]
+		}
 	]
 }
