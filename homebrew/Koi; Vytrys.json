@@ -77,6 +77,9 @@
 			"source": "Vytrys",
 			"rarity": "rare",
 			"reqAttune": "By an Artificer",
+			"focus": [
+				"Artificer"
+			],
 			"reqAttuneTags": [
 				{
 					"class": "artificer|efa"
@@ -99,6 +102,36 @@
 					"name": "Reproductive",
 					"entries": [
 						"Every day this toy can generate up to 25GP worth of potion materials. At least 4 hours must be spent working to turn these materials into a potion, or part of a potion. Only one potion can be worked on in this fashion at a time, and the materials disapear if unused at the end of a {@variantrule Long Rest|XPHB}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Amulet of Ancestors",
+			"source": "Vytrys",
+			"rarity": "rare",
+			"reqAttune": "By a Kitsune Paladin",
+			"reqAttuneTags": [
+				{
+					"class": "paladin|xphb"
+				}
+			],
+			"group": [
+				"Holy Symbol"
+			],
+			"focus": [
+				"Paladin"
+			],
+			"wondrous": true,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"entries": [
+				"While wearing this amulet, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your Paladin spells.",
+				{
+					"type": "entries",
+					"name": "TBD",
+					"entries": [
+						"Mechanics tbd"
 					]
 				}
 			]
