@@ -107,7 +107,7 @@
 			]
 		},
 		{
-			"name": "Amulet of Ancestors",
+			"name": "Paw of Protection",
 			"source": "Vytrys",
 			"rarity": "rare",
 			"reqAttune": "By a Kitsune Paladin",
@@ -129,7 +129,7 @@
 				"While wearing this amulet, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your Paladin spells.",
 				{
 					"type": "entries",
-					"name": "TBD",
+					"name": "Ancestral Protection",
 					"entries": [
 						"Mechanics tbd"
 					]
