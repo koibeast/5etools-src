@@ -244,12 +244,11 @@
 				}
 			],
 			"subclassFeatures": [
-				"Oath of the Kitsune Ancestors|Paladin|XPHB|Kitsune Ancestors|Vytrys",
-				"Aura of Elemental Shielding|Paladin|XPHB|Kitsune Ancestors|Vytrys",
-				"Elemental Rebuke|Paladin|XPHB|Kitsune Ancestors|Vytrys",
-				"Noble Scion|Paladin|XPHB|Kitsune Ancestors|Vytrys"
-			],
-			"hasFluffImages": true
+				"Oath of the Kitsune Ancestors|Paladin|XPHB|Kitsune Ancestors|Vytrys|3|Vytrys",
+				"Aura of Elemental Shielding|Paladin|XPHB|Kitsune Ancestors|Vytrys|7|Vytrys",
+				"Elemental Rebuke|Paladin|XPHB|Kitsune Ancestors|Vytrys|15|Vytrys",
+				"Noble Scion|Paladin|XPHB|Kitsune Ancestors|Vytrys|20|Vytrys"
+			]	
 		}
 	],
 	"subclassFeature": [
@@ -314,19 +313,19 @@
 				"Immediately after you cast {@spell Divine Smite|XPHB}, you can expend one use of your {@classFeature Channel Divinity|Paladin|XPHB|3|XPHB} and invoke one of the following effects.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Tails' Tie|Paladin|XPHB|Kitsune Ancestors|Vytrys"
+					"subclassFeature": "Tails' Tie|Paladin|XPHB|Kitsune Ancestors|Vytrys|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Magic Burrow|Paladin|XPHB|Kitsune Ancestors|Vytrys"
+					"subclassFeature": "Magic Burrow|Paladin|XPHB|Kitsune Ancestors|Vytrys|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Fox's Screech|Paladin|XPHB|Kitsune Ancestors|Vytrys"
+					"subclassFeature": "Fox's Screech|Paladin|XPHB|Kitsune Ancestors|Vytrys|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "The Skulk's Surge|Paladin|XPHB|Kitsune Ancestors|Vytrys"
+					"subclassFeature": "The Skulk's Surge|Paladin|XPHB|Kitsune Ancestors|Vytrys|3"
 				}
 			]
 		},
@@ -378,7 +377,6 @@
 		{
 			"name": "Genie's Splendor",
 			"source": "Vytrys",
-			"page": 21,
 			"className": "Paladin",
 			"classSource": "XPHB",
 			"subclassShortName": "Kitsune Ancestors",
@@ -392,7 +390,6 @@
 		{
 			"name": "The Skulk's Surge",
 			"source": "Vytrys",
-			"page": 21,
 			"className": "Paladin",
 			"classSource": "XPHB",
 			"subclassShortName": "Kitsune Ancestors",
@@ -429,15 +426,15 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Elemental Smite|Paladin|XPHB|Kitsune Ancestors|Vytrys"
+					"subclassFeature": "Elemental Smite|Paladin|XPHB|Kitsune Ancestors|Vytrys|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Genie Spells|Paladin|XPHB|Kitsune Ancestors|Vytrys"
+					"subclassFeature": "Genie Spells|Paladin|XPHB|Kitsune Ancestors|Vytrys|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Genie's Splendor|Paladin|XPHB|Kitsune Ancestors|Vytrys"
+					"subclassFeature": "Genie's Splendor|Paladin|XPHB|Kitsune Ancestors|Vytrys|3"
 				}
 			]
 		},
