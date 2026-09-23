@@ -51,7 +51,8 @@
 					"type": "entries",
 					"name": "Empathy Link",
 					"entries": [
-						"These weapons are a physical manifestation of the creators' love for you. If you hold one of them in your hand and focus on an emotion, you can communicate that emotion to the creator across any distance as long as you are on the same plane. Similarly, the creators both have amulets that allow them to communicate their emotions to you, via these weapons."
+						"These weapons are a physical manifestation of the creators' love for you. If you hold one of them in your hand and focus on an emotion, you can communicate that emotion to the creator across any distance as long as you are on the same plane. Similarly, the creators both have amulets that allow them to communicate their emotions to you, via these weapons.",
+						"This connection also gives you +5 to your maximum {@variantrule Sanity|Vytrys}."
 					]
 				},
 				{
@@ -131,7 +132,8 @@
 					"type": "entries",
 					"name": "Ancestral Protection",
 					"entries": [
-						"Mechanics tbd"
+						"Upon being hit by an attack roll, you may use your Reaction to activate this feature. Until the start of your next turn, you have +2 to your AC. If this causes the original attack to miss, you may use 1 charge of your Channel Divinity to activate 2 of your Elemental Smite options on your attacker. ",
+						"You may use this feature a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and regain all uses on a {@variantrule Long Rest|XPHB}." 
 					]
 				}
 			]
