@@ -86,7 +86,7 @@
 			"type": "R|XPHB",
 			"rarity": "common",
 			"weight": 1,
-			"value": 2,
+			"value": 100,
 			"weaponCategory": "simple",
 			"property": [
 				"A|XPHB"
