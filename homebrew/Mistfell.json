@@ -136,6 +136,23 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Tide Walker's Thread",
+			"source": "Mistfell",
+			"rarity": "rare",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"This magic thread is in a state of constant, gentle movement. It is said to be able to channel dream magic. While holding it, a creature may use an action and say one of the following key words in order to do induce its associated effect:",
+						"Awaken: Target a creature that is under a magically induced sleep or dream state in order to awaken them from such an effect.",
+						"Sleep: Cast Sleep on a target creature. DC 15",
+						"Walk: Target a creature that is asleep. The user immediately falls into a sleep-like state and is transported into the target's dream.",
+						"Upon being used in this way, the thread magically disperses into a cloud of pastel vapor."
+					]
+				}
+			]
 		}
 	]
 }
