@@ -126,7 +126,6 @@
 			"name": "Dune Spider Carapace",
 			"source": "Mistfell",
 			"rarity": "rare",
-			"wondrous": true,
 			"entries": [
 				{
 					"type": "entries",
@@ -153,6 +152,41 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Cloth of Calming Shade",
+			"source": "Mistfell",
+			"rarity": "rare",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"A dark scarf woven from strange shadow-thread that always feels cool to the touch.",
+						"While wearing this cloth:",
+						"While in dim light or darkness, you have advantage on saving throws against being frightened.",
+						"You learn the Prestidigitation cantrip. Charisma is your spellcasting ability for it.",
+						"You can speak, read, and write Shadow Cant, a secretive dialect associated with creatures of shadow and twilight."
+					]
+				}
+			]
+		},
+		{
+			"name": "Flute of Spirit Songs",
+			"source": "Mistfell",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"A creature may play this flute in the pressence of a beast in order to forge a spiritual bond. The user must succeed on a DC 10 Performance check in order to ellucidate the song of the beasts spriit.",
+						"If the beast is wishes to forge this bond, the user adds 5 to this check. If the beast wishis to resist, then the DC is increased by 10, and the user must make this check with disadtantage. Once a bond has succesfully been formed, the user learns a special song that calls out to the beasts spriit.", 
+						"If the user plays this song on this flute, then the beast will immediately become aware of it, no matter the distance, as long as they exist on the same plane of existence. The beast will be compelled to come to the floutist, unless they were previously instructed to react in some other way.",
+						"Once this flute has formed a bond with a beast succesfully, it may not be used to form another bond, unless the bond beast dies, or the user wishis to forget it's spirit song."
+					]
+				}
+			]
 		}
+
 	]
 }
